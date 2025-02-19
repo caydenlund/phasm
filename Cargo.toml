@@ -1,0 +1,29 @@
+[package]
+name = "phasm"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cayden Lund <caydenlund@gmail.com>"]
+description = "A fast and flexible assembler written in pure Rust"
+license = "MIT"
+repository = "https://github.com/caydenlund/phasm"
+homepage = "https://github.com/caydenlund/phasm"
+documentation = "https://docs.rs/phasm"
+readme = "README.md"
+keywords = ["assembler", "assembly", "binary", "elf", "x86", "arm"]
+categories = ["compilers", "development-tools"]
+
+[features]
+default = ["encode", "decode", "x86", "arm"]
+encode = []
+decode = []
+x86 = []
+arm = []
+elf = []
+
+[lib]
+name = "phasm"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow = "1.0"
+thiserror = "2.0"
