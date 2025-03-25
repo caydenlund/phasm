@@ -1,10 +1,10 @@
 # Phasm
 
 **Phasm** is a fast and flexible assembler written in Rust.
-It supports encoding and decoding assembly instructions for x86 and ARM, with ELF integration.
+It aims to support encoding and decoding assembly instructions for x86 and ARM, with ELF integration.
 
 
-## Features
+## Goals
 
 - **Encoding & Decoding**: Convert assembly code to machine code and vice versa.
 - **Multi-Architecture Support**: Supports **x86** and **ARM** architectures.
